@@ -2,12 +2,12 @@ export const DISHES =
     [
         {
         id: 0,
-        name:'Uthappizza',
-        image: 'assets/images/uthappizza.png',
+        name:'Chicken Tikka',
+        image: 'assets/images/chicken-tikka.jpg',
         category: 'mains',
         label:'Hot',
         price:'4.99',
-        description:'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.',
+        description:'Chicken tikka is a chicken dish originating in the Indian subcontinent; the dish is popular in Bangladesh and Pakistan. It is traditionally small pieces of boneless chicken baked using skewers on a brazier called angeethi after marinating in Indian spices and dahi (yogurt)—essentially a boneless version of tandoori chicken.',
         comments: [
             {
             id: 0,
@@ -47,8 +47,8 @@ export const DISHES =
         ]                        },
         {
         id: 1,
-        name:'Zucchipakoda',
-        image: 'assets/images/zucchipakoda.png',
+        name:'Tikka Biriyani',
+        image: 'assets/images/biriyani.jpg',
         category: 'appetizer',
         label:'',
         price:'1.99',
@@ -93,8 +93,8 @@ export const DISHES =
         },
         {
         id: 2,
-        name:'Vadonut',
-        image: 'assets/images/vadonut.png',
+        name:'Fried Chicken',
+        image: 'assets/images/fried-chicken.jpeg',
         category: 'appetizer',
         label:'New',
         price:'1.99',
@@ -139,8 +139,8 @@ export const DISHES =
         },
         {
         id: 3,
-        name:'ElaiCheese Cake',
-        image: 'assets/images/elaicheesecake.png',
+        name:'Chilli Chicken',
+        image: 'assets/images/chilli-chicken1.jpg',
         category: 'dessert',
         label:'',
         price:'2.99',
