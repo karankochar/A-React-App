@@ -1,0 +1,15 @@
+.media{
+    height:300px;
+    
+}
+.im{
+    height: 100px;
+}
+.ram{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+}
+.ram:hover{
+    opacity:0.5;
+}

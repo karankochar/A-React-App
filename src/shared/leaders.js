@@ -28,8 +28,8 @@ export const LEADERS = [
     },
     {
       id: 3,
-      name: 'Alberto Somayya',
-      image: '/assets/images/alberto.png',
+      name: 'Hapal Singh Sokhi',
+      image: '/assets/images/chef1.jpg',
       designation: 'Executive Chef',
       abbr: 'EC',
       featured: true,

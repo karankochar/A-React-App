@@ -2,8 +2,8 @@ export const DISHES =
     [
         {
         id: 0,
-        name:'Uthappizza',
-        image: '/assets/images/uthappizza.png',
+        name:'Chicken Tikka',
+        image: '/assets/images/chicken-tikka.jpg',
         category: 'mains',
         label:'Hot',
         price:'4.99',
@@ -12,8 +12,8 @@ export const DISHES =
         },
         {
         id: 1,
-        name:'Zucchipakoda',
-        image: '/assets/images/zucchipakoda.png',
+        name:'Fried Chicken',
+        image: '/assets/images/fried-chicken.jpeg',
         category: 'appetizer',
         label:'',
         price:'1.99',
@@ -22,8 +22,8 @@ export const DISHES =
         },
         {
         id: 2,
-        name:'Vadonut',
-        image: '/assets/images/vadonut.png',
+        name:'Afghani Chicken',
+        image: '/assets/images/afghani-chicken.jpg',
         category: 'appetizer',
         label:'New',
         price:'1.99',
@@ -32,8 +32,8 @@ export const DISHES =
         },
         {
         id: 3,
-        name:'ElaiCheese Cake',
-        image: '/assets/images/elaicheesecake.png',
+        name:'Chilli Chicken',
+        image: '/assets/images/chilli-chicken.jpg',
         category: 'dessert',
         label:'',
         price:'2.99',

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { Breadcrumb, BreadcrumbItem, Card, CardHeader, Media, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import './AboutComponent.css';
 
 class About extends Component {
     constructor(props) {
@@ -12,14 +13,15 @@ class About extends Component {
         const leaders = this.props.leaders.map((leader) => {
         return (
             <div className="media">
-            <div className="mr-5">
-                    <CardImg src={leader.image} />
+            <div className="im">
+                <CardImg className='ram' src={leader.image} />
+                
             </div>
             
             <div className="media-body">
-                <h4 className="mt-0 pb-2">{leader.name}</h4>
-                <h4><CardSubtitle className="pb-3">{leader.designation}</CardSubtitle></h4>
-                <p className="hidden-xs-down">{leader.description}
+                <h4 className="mt-0 ml-2 pb-2">{leader.name}</h4>
+                <h4><CardSubtitle className="pb-3 ml-2">{leader.designation}</CardSubtitle></h4>
+                <p className="hidden-xs-down ml-2">{leader.description}
                 </p>
             </div>
         </div>
